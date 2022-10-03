@@ -1,0 +1,12 @@
+body{
+    background-image: url("../images/genesis.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+/* 
+create a 40px x 40px png image */
+
+    width:100vw;
+    height:100vh;
+    cursor: url( "../images/bee3.png"), auto;	
+  
+}
