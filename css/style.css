@@ -2,11 +2,25 @@ body{
     background-image: url("../images/genesis.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
 /* 
 create a 40px x 40px png image */
 
     width:100vw;
     height:100vh;
-    cursor: url( "../images/bee3.png"), auto;	
+    cursor: url( "../images/bee3.png"), auto;
+    
   
 }
+
+#demotext {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+    font-size: xxx-large;
+    cursor: url( "../images/bee3.png"), auto;
+    cursor:hover
+
+    }
+
+
