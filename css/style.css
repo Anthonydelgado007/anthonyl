@@ -235,15 +235,15 @@ body {
 }
 
 .hero-item {
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/divinity-ori-sin.jpg');
+  background-image: url('../images/stinger-vespa-first-art.JPG');
 }
 
 .standard-item:nth-child(2) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/re7-chris-large.jpg");
+  background-image: url("../images/vespa.JPG");
 }
 
 .standard-item:nth-child(3) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/bioshock-large.jpg");
+  background-image: url("../images/Stinger-rescue.JPG");
 }
 
 .standard-item:nth-child(4) {
@@ -293,7 +293,7 @@ body {
 /* codepen */
 
 body {
-  /*background-color: #000;*/
+  background-color: #000;
   margin: 0;
   padding: 0;
 }
