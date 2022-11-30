@@ -63,7 +63,7 @@ h1 {
 .item:nth-child(1) {
   background-color: #e74c3c;
   background-image: url("../images/stinger-bio.png");
-  background-position: top left;
+  background-position: top left -10px;
 }
 
 .item:nth-child(2) {
@@ -121,6 +121,8 @@ h1 {
     -webkit-clip-path: polygon(0 0, 80% 0, 100% 76.5%, 0 100%);
     clip-path: polygon(0 0, 80% 0, 100% 76.5%, 0 100%);
     margin-bottom: -93px;
+    margin-right: -50px;
+    margin-top: 50px;
   }
 
   .item:nth-child(2) {
