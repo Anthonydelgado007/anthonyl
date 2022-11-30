@@ -9,8 +9,6 @@ create a 40px x 40px png image */
   width: 100vw;
   height: 100vh;
   cursor: url("../images/bee3.png"), auto;
-
-
 }
 
 #demotext {
@@ -71,7 +69,7 @@ h1 {
 .item:nth-child(2) {
   background-color: #3498db;
   background-image: url("../images/stinger-font.png");
-  background-position: center 50%;
+  background-position: center 75%;
 }
 
 .item:nth-child(3) {
@@ -101,13 +99,13 @@ h1 {
 .item:nth-child(7) {
   background-color: #f1c40f;
   background-image: url("../images/Stinger-striker-concept.PNG");
-  background-position: top right 20% ;
+  background-position: top right  ;
 }
 
 .item:nth-child(8) {
   background-color: #2980b9;
-  background-image: url("../images/stinger-freedom-tower.PNG");
-  background-position: top right ;
+  background-image: url("../images/stinger-mr.heat.jpg");
+  background-position:  top ;
 }
 
 /*** Grid Set Up ***/
@@ -178,6 +176,7 @@ h1 {
     -webkit-clip-path: polygon(0 30%, 49% 0, 75% 38%, 34% 100%, 0 100%);
     clip-path: polygon(0 30%, 49% 0, 82% 27%, 34% 100%, 0 100%);
     margin-top: -7px;
+    margin-bottom: -100px;
   }
 
   .item:nth-child(8) {
@@ -186,7 +185,9 @@ h1 {
     -webkit-clip-path: polygon(0 100%, 57% 0, 100% 48%, 100% 100%, 0 100%);
     clip-path: polygon(0 100%, 57% 0, 100% 48%, 100% 100%, 0 100%);
     margin-left: -15%;
-    margin-top: -px;
+    margin-bottom: -100px;
+    margin-top: 50;
+    margin-right: 50;
   }
 }
 
