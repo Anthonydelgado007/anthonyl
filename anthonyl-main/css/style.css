@@ -1,7 +1,7 @@
 body {
   background-image: url("../images/genesis.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 
   /* 
 create a 40px x 40px png image */
@@ -22,8 +22,7 @@ create a 40px x 40px png image */
   animation: blink 10s infinite;
   content: "_";
   cursor: url("../images/bee3.png"), auto;
-
-
+  
 }
 
 a {
@@ -32,6 +31,7 @@ a {
 
 h1 {
   text-align: center;
+  font-size: x-small;
 }
 
 /*** Fonts ***/
@@ -42,9 +42,6 @@ h1 {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #e3e3e3;
-}
 
 .container {
   display: grid;
@@ -67,25 +64,25 @@ body {
 /*** Images With Color Fallbacks ***/
 .item:nth-child(1) {
   background-color: #e74c3c;
-  background-image: url("../images/Stinger-bio-temp1.jpg");
+  background-image: url("../images/stinger-bio.png");
   background-position: top left;
 }
 
 .item:nth-child(2) {
   background-color: #3498db;
-  background-image: url("../images/stinger-font.jpg");
-  background-position: center 35%;
+  background-image: url("../images/stinger-font.png");
+  background-position: center 50%;
 }
 
 .item:nth-child(3) {
   background-color: #bdc3c7;
-  background-image: url("../images/stinger-freedom-tower.PNG");
-  background-position: center 20%;
+  background-image: url("../images/Stinger-info.png");
+  background-position: top left 30%;
 }
 
 .item:nth-child(4) {
   background-color: #2c3e50;
-  background-image: url("../images/anthony-coat.PNG");
+  background-image: url("../images/anthony.jpg");
   background-position: auto;
 }
 
@@ -103,14 +100,14 @@ body {
 
 .item:nth-child(7) {
   background-color: #f1c40f;
-  background-image: url("../images/stinger-freedom-tower.PNG");
-  background-position: right 27%;
+  background-image: url("../images/Stinger-striker-concept.PNG");
+  background-position: top right 20% ;
 }
 
 .item:nth-child(8) {
   background-color: #2980b9;
-  background-image: url("../images/Stinger-striker-concept.PNG");
-  background-position: left 22px;
+  background-image: url("../images/stinger-freedom-tower.PNG");
+  background-position: top right ;
 }
 
 /*** Grid Set Up ***/
@@ -184,12 +181,12 @@ body {
   }
 
   .item:nth-child(8) {
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 3;
     grid-row: 40 / 60;
     -webkit-clip-path: polygon(0 100%, 57% 0, 100% 48%, 100% 100%, 0 100%);
     clip-path: polygon(0 100%, 57% 0, 100% 48%, 100% 100%, 0 100%);
     margin-left: -15%;
-    margin-top: -7px;
+    margin-top: -px;
   }
 }
 
@@ -235,19 +232,21 @@ body {
 }
 
 .hero-item {
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/divinity-ori-sin.jpg');
-}
+  background-image: url('../images/vespa-b.png');
+  background-position: top center;
+} 
 
 .standard-item:nth-child(2) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/re7-chris-large.jpg");
+  background-image: url("../images/diliany.jpg");
 }
 
 .standard-item:nth-child(3) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/bioshock-large.jpg");
+  background-image: url("../images/vespa-v.png");
+  background-position: top left 50%;
 }
 
 .standard-item:nth-child(4) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/dishonored-large.jpg");
+  background-image: url("../images/Stinger-rescue.JPG");
 }
 
 @supports (display: grid) {
@@ -257,7 +256,7 @@ body {
   }
 
   .hero-item {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 14;
     grid-row: 1 / 50;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
@@ -272,7 +271,7 @@ body {
   }
 
   .standard-item:nth-child(3) {
-    grid-column: 2 / span 1;
+    grid-column: 2 / span 14;
     grid-row: 50 / 100;
     -webkit-clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
     clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
@@ -282,7 +281,7 @@ body {
   }
 
   .standard-item:nth-child(4) {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 14;
     grid-row: 100 / 150;
     -webkit-clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
     clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
